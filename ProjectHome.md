@@ -1,0 +1,3 @@
+Regular Merkle Trees can be used to efficiently authenticate data from multiple sources, as they require one single digital signature per content, regardless of the number of fragments of the content. However, Merkle Trees require balanced binary trees to support content authentication, otherwise, it incurs in additional hash computation.
+
+The Skewed Hash Tree is a generalization of Merkle Tree that supports random size file authentication without extra hash computations.
